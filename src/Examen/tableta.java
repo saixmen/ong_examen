@@ -14,6 +14,7 @@ public class tableta extends javax.swing.JFrame {
     private int metidos=0;
     public tableta() {
         initComponents();
+            System.out.println("te vilijo desde la lejania");
              String resp=JOptionPane.showInputDialog(null, "¿Cuántas ONG´s quieres introducir?");
              tam=Integer.parseInt(resp);
              arrayO= new Conjunto(tam);
